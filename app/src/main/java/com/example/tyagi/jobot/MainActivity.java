@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initChatView();
 
         //Language, Dialogflow Client access token
-        final LanguageConfig config = new LanguageConfig("ja", "1f47afa9d1cd4828967deadc2dbb7354");
+        final LanguageConfig config = new LanguageConfig("ja", "XXXXXXXXXXXXXXXXXXXXXXXXXX"); //insert your client ID here
         initService(config);
     }
 
